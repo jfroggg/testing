@@ -40,7 +40,7 @@ console.log(customArray);
 
 customArray.forEach(element => {
    
-    var htmlString='<div col-sm-6 col-md-4><div class="card my-2 border-jason text-center shadow-lg rounded">';
+    var htmlString='<div class="col-sm-6 col-md-4"><div class="card my-2 border-jason text-center shadow-lg rounded">';
     var header="<h5 class='card-header'>"+element.header+"</h5>";
     var title='<div class="card-body"><h5 class="card-title">'+element.title+'</h5>'
     var text='<p class="card-text">'+element.text+'</p>'
